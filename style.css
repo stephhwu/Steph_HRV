@@ -1,0 +1,91 @@
+.tooltip {
+  position: fixed;
+  background-color: #FDF5DD;
+  border: 1px solid #145691;
+  padding: 20px;
+  opacity: 0;
+  pointer-events: inherit;
+  font-size: 12px;
+  border-radius: 20px;
+
+}
+
+#paragraph-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.paragraph-block {
+  width: calc(20% - 5px); /* 33.33% width for each column with spacing */
+  margin-right: -10px; /* Adjust the margin as needed for spacing between columns */
+  margin-bottom: 1px; /* Adjust the margin as needed for spacing between rows */
+  font-size: 12px;
+}
+
+
+/* Optional: Add styling for the flex container */
+.flex-container {
+  justify-content: space-around; /* Align items with space between them */
+}
+
+
+svg {
+  display: block;
+  margin: auto;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #FFF9F0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Add your existing styles here */
+
+#container {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#buttons {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 5px;
+}
+
+button {
+  background-color: #F9F1E5;
+  border-color: #333;
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 20px;
+  text-align: center;
+ 
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 50px;
+  display: inline-block; /* Display as inline-block */
+
+}
+
+button:hover {
+  background-color: #145691;
+  color: #ffffff;
+  border-color: #ffffff;
+
+
+}
+
+h1 {
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 20px;
+}

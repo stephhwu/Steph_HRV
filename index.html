@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HRV x Resonent Coherence Breathing</title>
+  <!-- Add the d3.js library -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div id="container">
+    <h1>HRV x Resonant Coherence Breathing</h1>
+
+    <!-- Add a container for the paragraphs with flex display -->
+    <div id="paragraph-container" class="flex-container">
+      <!-- Add three blocks of paragraphs above the chart -->
+      <div class="paragraph-block">
+        <h2>Heart Rate Variablity (HRV)</h2>
+        <p>HRV serves as an indicator of the time intervals between successive heartbeats, measuring the variability in these intervals. The autonomic nervous system governs this variability. A higher HRV generally indicates a more flexible and responsive autonomic nervous system, which is associated with better sleep, stress resilience, athletic performance, and mental health. 
+        </p>
+      </div>
+
+      <div class="paragraph-block">
+        <h2>Resonant Coherence Breathing (RCH)</h2>
+        <p>Resonant coherent breathing (RCH) is technique that involves breathing approximately 6 breaths/min. Studies have shown that resonant coherent breathing can increase HRV with regular practice. I implemented 20 minutes of RCH every night starting the 29th of January to see if it had an impact on my HRV.
+        </p>
+      </div>
+
+      <div class="paragraph-block">
+        <h2>Calories Burned & Sleep</h2>
+        <p>Since physical activity and sleep are factors that can affect your autonomic nervous system and therefore your HRV, I wanted to see how this influenced recovery. Unfortunately, no patterns were found with the RCH breathing exercises, but a pattern can be seen on rest and recovery needs after more physically taxing days, which I used calories burned to determine.</p>
+      </div>
+    </div>
+
+    <!-- Create a container for the chart and buttons -->
+    <div id="app">
+      <!-- Your buttons go here -->
+      <div id="buttons">
+        <!-- <button>Button 1</button>
+        <button>Button 2</button> -->
+        <!-- Add more buttons if needed -->
+      </div>
+
+      <!-- Container for the chart -->
+      <div id="chart-container">
+        <!-- Include the app.js script -->
+        <script src="app.js"></script>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
