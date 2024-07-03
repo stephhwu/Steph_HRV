@@ -163,7 +163,6 @@ const showDetails = function (event, d, activeVariable) {
   detailsDisplay
     .style("opacity", 1)
     .html(`
-    <span style="color: grey;">Date:</span> ${d3.timeFormat("%Y-%m-%d")(d.date_)}<br>
     <span style="color: grey;">${formattedVariableName}:</span> ${d[selectedVariable]}<br>
     <span style="color: grey;">Calories Burned:</span> ${d.calories_burned}<br>
     <span style="color: grey;">Sleep Duration:</span> ${sleepDuration}
